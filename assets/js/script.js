@@ -181,3 +181,33 @@ function nextQuestion() {
 
    }
 }
+
+/*This function checks the correct answer when chosen by the user from teh questions and highlights the answer
+ *in green while the wrong ansers in highlighted in red. 
+ *After completing the question displayed the next button is then deisplayed for the user to move onto to the next question.
+ */
+
+ function checkAnswer(clicked) {
+    console.log('Checking answer');
+
+    let button = clicked == 1 ? answerOne : answerTwo;
+    let otherButton = clicked == 1 ? answerOne : answerTwo;
+    let question = questions[questionCounter];
+    console.log(question.correct);
+    if (button.innerHTML === question.correct) {
+        button.classList.add('btn-correct');
+        console.log("Correct!");
+        incrementScore();
+    } else {
+        button.classList.add('btn-incorrect');
+        console.log("Incorrect!");
+        
+    }
+    otherButton.disabled = true
+    if ((questionCounter +1) === questions.length) {
+        nextButton.innerHTML = 'End';
+    }
+
+    nextButton.classList.remove('hide');
+
+}
