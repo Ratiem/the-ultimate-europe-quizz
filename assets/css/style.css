@@ -26,3 +26,26 @@ body {
     font-family: Open Sans, sans-serif;
     font-weight: 700;
     }
+
+/* --------- Game layout */ 
+#game-area {
+    background-color: #bbd5e2;
+    box-shadow: 0 0 10px 2px;
+    max-width: 80%;
+    max-height: 90%;
+    margin: auto;
+    padding: 15px;
+    }
+
+#question-area h3{
+    margin: 5px;
+    } 
+
+#question {
+    margin: 5px;
+    }
+
+.logo {
+    max-width: 45%;
+    max-height: 75%;
+}
