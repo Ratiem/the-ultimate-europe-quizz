@@ -224,3 +224,15 @@ function incrementScore() {
     console.log("Adding points");
     console.log("Your Total Score is" + correctAnswerCounter);
 }
+
+/**
+ * When game is complete total score is displayed and closing message.
+ */
+function endGame() {
+    console.log("Calculating total score...");
+
+    questionArea.classList.add("hide");
+    endofGameArea.classList.remove("hide");
+    finalScoreText.innerHTML = `We hope you enjoyed playing the game!`;
+    
+}
