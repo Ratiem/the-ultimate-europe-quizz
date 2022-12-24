@@ -78,4 +78,20 @@ body {
     border-radius: 6px;
     font-size: large;
     background-color: white;
-}   
+}
+
+/* --------- Score Area */ 
+
+#score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+#quiz-score {
+    margin: 5px;
+}
+
+#score {
+    margin: 5px;
+}
