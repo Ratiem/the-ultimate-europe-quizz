@@ -76,3 +76,26 @@ let questions = [{
 },
 ];
 
+//Declare global variables
+
+let startButton = document.getElementById("start-button");
+let rulesButton = document.getElementById("rules-button");
+let nextButton = document.getElementById("next-button");
+let introArea = document.getElementById("intro-area");
+let questionArea = document.getElementById("question-area");
+let questionTitle = document.getElementById("question-title");
+let answerButtons = document.getElementsByClassName("answer-btn");
+let score = 0;
+let quizScore = document.getElementById("score");
+let correctAnswerCounter = 0;
+const maxQuestion = 12;
+const scorePoints = 1;
+let questionCounter = 0;
+let finalscore = document.getElementById("final-score");
+let finalScoreText = document.getElementById("final-score-text");
+let removedQuestions = [];
+let answerOne = document.getElementById("answer1");
+let answerTwo = document.getElementById("answer2");
+let logoImg = document.getElementById("logo-img");
+let questionElement = document.getElementById("question");
+let endofGameArea = document.getElementById("end-of-game");
