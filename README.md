@@ -95,18 +95,18 @@ The Media responsive elements were built directly in the CSS. The website is res
 
 - HTML
   - No errors were returned when passing through the official [W3C validator]
-  ![HTMLtesting](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/html-testing%20-page.png)
+  ![HTMLtesting](https://github.com/Ratiem/the-ultimate-europe-quizz/blob/main/assets/images/html-testing%20-page.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
-  ![CSStesting](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/css-testing-page.png)
+  ![CSStesting](https://github.com/Ratiem/the-ultimate-europe-quizz/blob/main/assets/images/css-testing-page.png)
   
 - JS Validation
   JSHint was used to check validity of the JavaScript code used for the website and no warnings were found.
   3 unused variables were found in the list of variables, however these variables have been declared in the functions
   -
 - LightHouse Report Viewer
- ![Lighthouse](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/lighthouse-testing.png)
+ ![Lighthouse](https://github.com/Ratiem/the-ultimate-europe-quizz/blob/main/assets/images/lighthouse-testing.png)
 
 
 ## Deployment
