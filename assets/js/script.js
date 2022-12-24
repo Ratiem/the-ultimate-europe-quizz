@@ -128,3 +128,21 @@ function rules() {
     rulesButton.classList.add("hide");
 
 }
+
+/**
+ * When the Start Quiz button is pressed, the game area appears.
+ * The first question is called.
+ */
+
+function runGame() {
+
+    console.log("Started");
+    startButton.classList.add("hide");
+    rulesButton.classList.add("hide");
+    introArea.classList.add("hide");
+    questionArea.classList.remove("hide");
+    nextButton.classList.add("hide");
+    logoImg.classList.add("hide");
+    displayQuestion(questionCounter);
+
+}
