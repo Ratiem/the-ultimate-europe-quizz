@@ -19,3 +19,10 @@ body {
     color: #17191b;
     background-attachment: fixed;
     }
+
+/* --------- Heading */ 
+
+.heading {
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    }
