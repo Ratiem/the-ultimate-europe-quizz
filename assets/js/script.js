@@ -183,8 +183,8 @@ function nextQuestion() {
 }
 
 /*This function checks the correct answer when chosen by the user from teh questions and highlights the answer
- *in green while the wrong ansers in highlighted in red. 
- *After completing the question displayed the next button is then deisplayed for the user to move onto to the next question.
+ *in green while the wrong answers in highlighted in red. 
+ *After completing the question displayed the next button is then displayed for the user to move onto to the next question.
  */
 
  function checkAnswer(clicked) {
@@ -210,4 +210,17 @@ function nextQuestion() {
 
     nextButton.classList.remove('hide');
 
+}
+
+/**
+ * Check the score and increments it by 1 each time the user gets a correct answer.
+ */
+
+function incrementScore() {
+
+    correctAnswerCounter++;
+    score = (correctAnswerCounter * scorePoints);
+    quizScore.innerText = score;
+    console.log("Adding points");
+    console.log("Your Total Score is" + correctAnswerCounter);
 }
