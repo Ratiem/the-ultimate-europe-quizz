@@ -99,3 +99,17 @@ let answerTwo = document.getElementById("answer2");
 let logoImg = document.getElementById("logo-img");
 let questionElement = document.getElementById("question");
 let endofGameArea = document.getElementById("end-of-game");
+
+//Get the button elements and add the event listeners to them
+
+startButton.addEventListener("click", function () {
+    runGame(questionCounter, maxQuestion);
+});
+
+rulesButton.addEventListener("click", rules);
+
+
+
+nextButton.addEventListener("click", function () {
+    nextQuestion(questionCounter, maxQuestion);
+});
