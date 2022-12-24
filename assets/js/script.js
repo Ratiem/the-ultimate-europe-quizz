@@ -146,3 +146,15 @@ function runGame() {
     displayQuestion(questionCounter);
 
 }
+
+/*Function to show when the quiz question is displayed and the 2 possible 
+ *answers for the questions.*/
+
+function displayQuestion(currentQuestion) {
+
+    questionTitle.innerText = `Question ${(questionCounter + 1)} of ${questions.length}`;
+    console.log("Prossesing question number " + currentQuestion);
+    questionElement.innerText = questions[currentQuestion].question;
+    answerOne.innerText = questions[currentQuestion].answer1;
+    answerTwo.innerText = questions[currentQuestion].answer2;
+}
