@@ -49,3 +49,33 @@ body {
     max-width: 45%;
     max-height: 75%;
 }
+
+/* --------- Answer Area */ 
+
+#answer-area {
+    margin: auto;
+    display: grid;
+    gap: 8px;
+    max-width: 500px;
+    }
+
+.answer-btn {
+    padding: 6px;
+    font-family: "Ubuntu", Open sans;
+    border: 2px solid blue;
+    border-radius: 6px;
+    font-size: large;
+    color: black;
+}   
+
+.answer-btn:hover {
+    border-color: black;
+}
+
+.next-btn {
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: large;
+    background-color: white;
+}   
