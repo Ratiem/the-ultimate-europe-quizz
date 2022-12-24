@@ -101,3 +101,18 @@ body {
 #end-of-game h3 {
     text-align: center;
 }
+
+/* --------- Buttons */ 
+
+.start-btn, .rules-btn {
+    padding: 6px;
+    border: 2px solid blue;
+    border-radius: 6px;
+    font-size: large;
+    background-color: white;
+    margin: 10px;
+}
+
+.btn:hover {
+    border: 2px solid black;
+}
