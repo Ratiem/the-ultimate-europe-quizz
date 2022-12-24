@@ -191,7 +191,7 @@ function nextQuestion() {
     console.log('Checking answer');
 
     let button = clicked == 1 ? answerOne : answerTwo;
-    let otherButton = clicked == 1 ? answerOne : answerTwo;
+    let otherButton = clicked == 1 ? answerTwo : answerTwo;
     let question = questions[questionCounter];
     console.log(question.correct);
     if (button.innerHTML === question.correct) {
@@ -226,7 +226,7 @@ function incrementScore() {
 }
 
 /**
- * When game is complete total score is displayed and closing message.
+ * When game is complete end of game message is displayed.
  */
 function endGame() {
     console.log("Calculating total score...");

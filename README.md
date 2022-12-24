@@ -1,108 +1,163 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Ultimate Europe Quizz
 
-Welcome Ratiem,
+The Ultimate Europe Quiz is a fun interesting quiz aimed at testing the user on their general knowledge of the European Countries in travel and geography. This Simple trivia game is perfect for any get together event as friends or even a simple trivia night. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The idea of the project was inspired by my love for Europe and travel. From a young age I have always had a passion for travel after being introduced to the beauty of travel by my parents at a young age. After my first Europe experience I never looked back. I found the questions to be a fun quiz for myself as well to test how much of Europe knowledge I have gathered since my first experience and the idea is that the user enjoys the game as much as l did and is inspired to explore the beauty of Europe one day.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The content of the quiz is designed for all ages. There are no age restrictions. The website is responsive in all major screen devices that is desktop, laptop, tablet and smartphone.
 
-## Gitpod Reminders
+![Responsive Mockup](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/responsiveness.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Features 
 
-`python3 -m http.server`
+## Home page
 
-A blue button should appear to click: _Make Public_,
+On this page you will find the main title and a brief introduction to the quiz. The home page also contains the logo image of Country signs, the start quiz button and rules button.
 
-Another blue button should appear to click: _Open Browser_.
+![Homepage](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/landing-page.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Rules page
 
-A blue button should appear to click: _Make Public_,
+The rules are found on the home page( landing page of the quiz). And these are set to give the user some guidance on how to play the quiz. Once the user has finished reading the rules they will be guided to the start quiz button. The rules will then disappear when the user proceeds to click the start quiz button.
 
-Another blue button should appear to click: _Open Browser_.
+![Rulespage](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/rules-page.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Quiz page
 
-To log into the Heroku toolbelt CLI:
+In this section, after selecting the start quiz button, the user will be directed to the very first question which like all questions to follow will always have two options to choose from(true of false). On the quiz page the user will only see the question, the answer options, the score and the next button which should be clicked after the user has selected the correct answer so as to proceed to the next question.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+For each question that the user will be working on they will know what number it is as this will be displayed at the top of the game area. There are 12 questions to answer. The correct answer option turns green when clicked while if the answer is wrong the button turns red. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Quizpage](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/quiz-page.png)
 
-------
+## End Page
+At the end of the answering the 12 questions, the game is over and the user will be taken to the final page of the game. The user will get a congratulations message for completing the game. 
 
-## Release History
+There is no restart button for the player to play the quiz again. The game will marked as over.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Endpage](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/end-page.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Future Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+In future I could possibly add:
+- An option to replay again with possibly a set of new questions.
+- Timer element to make it more fun.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Design Choices
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Color
+I used simple color choices for both the background and the quiz area. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Fonts
+I was drawn to the combination of Ubuntu and Opens sans. A very soft combination and easy on the eyes.
+I was immediately drawn to the font Ubuntu and found the perfect pairing for this font on https://www.pagecloud.com/blog/best-google-fonts-pairings
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Structure
+The website has 3 main pages being:
+- The Home page which displays the Intro area. On this page you will find the start quiz and rules button.
+- The Quiz area which displays all the 12 questions one at a time and answer options. At the bottom of this page we also see the score and next button. This page contains the next button and score level.
+- The final page is the end of the game page which will show the user a closing message.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+# Technologies Used
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Languages
+- HTML
+- CSS
+- JavaScript
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Framework & Tools
+I used the following technologies to create this website:
+- Balsamiq - for my initial testing phase of the layout of the quiz 
+- HTML 5- for structure
+- CSS- for styling
+- Javascript - for all the game variables and functions
+- Gitpod - for the Website creation and deployment
+- Github - for the final Website hosting
+- The fonts were taken from https://fonts.google.com/ and the inspiration behind the combination of the fonts was taken from https://www.pagecloud.com/blog/best-google-fonts-pairings
+- [Favicon] (https://favicon.io/favicon-generator/)
+- google Chrome Developer tools
+- Google fonts
+- Font Awesome
+- Code Institute Student template
+- Am l responsive
+- W3C Markup Validation Service
+- Jigsaw CSS Validation Service
+- JSHint JavaScript Code Quality Tool
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Testing 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The Media responsive elements were built directly in the CSS. The website is responsive across all media ie Laptops, desktops, tablets and smartphones.
 
-------
+### Validator Testing 
 
-## FAQ about the uptime script
+- HTML
+  - No errors were returned when passing through the official [W3C validator]
+  ![HTMLtesting](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/html-testing%20-page.png)
 
-**Why have you added this script?**
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator]
+  ![CSStesting](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/css-testing-page.png)
+  
+- JS Validation
+  JSHint was used to check validity of the JavaScript code used for the website and no warnings were found.
+  3 unused variables were found in the list of variables, however these variables have been declared in the functions
+  -
+- LightHouse Report Viewer
+ ![Lighthouse](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/lighthouse-testing.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+## Deployment
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the "Settings" tab 
+  - Once in the setting, navigate to "Pages" from the left hand menu;
+  - In the "Branch" section, from the drop-down menu, select "main" and click on Save;
+  - Refresh the page manually. The link to the now deployed website and will display to indicate the successful deployment. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The live link can be found here - https://ratiem.github.io/the-ultimate-europe-quiz/ 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+In order to fork this repository, you must:
+- Go to the Github repository.
+- Click on the "fork Button" at the top right hand corner of the page.
+- Then select "create new fork' from the menu provided.
 
-**So….?**
+You can clone this repository by:
+- Going to the Github repository, click on the code button located above the file list.
+- Select if you prefer to clone using either HTTPS, SSH, or Github CLI.
+- Click on the copy button to copy the URL to your clipboard.
+- Open Git Bash.
+- Change the current working directory to the one where you want to clone the directory to.
+- Type "git clone" and then paste the copied URL from Github.
+- Press enter to create your local clone.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+## Credits 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Content 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- The text for the Quiz questions were taken from https://www.beelovedcity.com/
+- Instructions on how to make my page responsive were taken from Youtube video https://css-tricks.com/a-complete-guide-to-css-media-queries/ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ 
+- The Favicon in the browser was created using https://favicon.io/favicon-generator/
 
-**Anything more?**
+### Media
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- One image was used in this project for the logo and it was sourced from:
+   *https://www.freepik.com/free-vector/countries-signs_762270.htm#query=country%20signs&position=4&from_view=search&track=sph
+- I used a one background color to keep the project simple and clean, without obscuring the main quiz area. 
 
----
 
-Happy coding!
+# Acknowledgements
+
+- First of all i would like to thank my daughter as she helped provide support during this time. My family in  general for the unwavering support throughout my program so far. 
+- I would also like to acknowledge the slack community for always trying their best to guide us through challenging tasks. 
+- My fellow Students Jeffrey Bull for helping review my code in peer code review.
+- I would also like to thank my fellow Code Institute student Kelly Hutchison. Her excellent code work was the basis for my project.
+- My friend George Ngcobo who is a former colleague. George is currently a software developer and helped tutor me through the final steps in trying to identify where my code required fixing particularly in javascript. He also helped debug my code. I was challenged to think more and read through more online resources such as stackoverflow.com and search through related videos on youtube.
+- Julia Sjterna a JavaScript expert and coach
+- Tutoring support for the guidance to be able to pick out possible errors for fixing.
+- Finally I would like to thank my Mentor Caleb Mbakwe for the continued support
+
+
