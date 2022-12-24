@@ -153,8 +153,31 @@ function runGame() {
 function displayQuestion(currentQuestion) {
 
     questionTitle.innerText = `Question ${(questionCounter + 1)} of ${questions.length}`;
-    console.log("Prossesing question number " + currentQuestion);
+    console.log("Processing question number " + currentQuestion);
     questionElement.innerText = questions[currentQuestion].question;
     answerOne.innerText = questions[currentQuestion].answer1;
     answerTwo.innerText = questions[currentQuestion].answer2;
+}
+
+
+/**The nextQuestion function is called when the next button is clicked
+ * A new question is loaded after each click and removes the current question.
+ */
+function nextQuestion() {
+
+    console.log("Generating next question...");
+    questionCounter ++;
+
+    displayQuestion(questionCounter);
+
+    for (let i = 0; i < answerButtons.length; i++) {
+        answerButtons[i].classList.remove("btn-correct");
+        answerButtons[i].classList.remove("btn-incorrect");
+    }
+    nextButton.classList.add("hide");
+
+    if ((questionCounter + 1) === questions.length) {
+        endGame();
+
+   }
 }
