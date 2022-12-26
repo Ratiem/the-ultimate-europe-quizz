@@ -197,7 +197,6 @@ function nextQuestion() {
     console.log(question.correct);
     if (button.innerHTML === question.correct) {
         button.classList.add('btn-correct');
-        button.disabled = true;
         console.log("Correct!");
         incrementScore();
     } else {
@@ -205,6 +204,7 @@ function nextQuestion() {
         console.log("Incorrect!");
         
     }
+    button.disabled = true;
     otherButton.disabled = true;
     if ((questionCounter + 1) === questions.length) {
         nextButton.innerHTML = 'End';
