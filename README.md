@@ -115,7 +115,9 @@ The Media responsive elements were built directly in the CSS. The website is res
 
 | **Bug** | **Attempted Fixes**| **Result** | 
 |-------------|------------|------------|
-|During the final check of the quiz functionality I noticed the questions go as far as question 11 and game ends instead of ending after question 12. The Check answer function was allowing the user to select either of the answers instead of allowing user to select one suitable answer.|I tried to adjust the global variable of question counter as well as review the next question function. I disabled two buttons when an answer has been selected, and re-enabling them when user moves to next question.|Due to unforeseen events which were communicated to student care, i had to redo this project while in remote areas and very limited network. I did not manage to fix this issue before submission. The user is now able to click only one answer.
+|During the final check of the quiz functionality I noticed the questions go as far as question 11 and game ends instead of ending after question 12. |I tried to adjust the global variable of question counter as well as review the next question function. |Due to unforeseen events in my family which were communicated to student care, i had to redo this project while in remote areas and very limited network. I did not manage to fix this issue before submission.
+|-------------|------------|------------|
+|The Check answer function was allowing the user to select either of the answers instead of allowing user to select one suitable answer.|I disabled two buttons when an answer has been selected, and re-enabling them when user moves to next question.  |The user is now able to click only one answer.
 
 ## Deployment
 
