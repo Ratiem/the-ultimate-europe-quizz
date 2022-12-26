@@ -173,6 +173,7 @@ function nextQuestion() {
     for (let i = 0; i < answerButtons.length; i++) {
         answerButtons[i].classList.remove("btn-correct");
         answerButtons[i].classList.remove("btn-incorrect");
+        answerButtons[i].disabled = false;
     }
     nextButton.classList.add("hide");
 
@@ -196,6 +197,7 @@ function nextQuestion() {
     console.log(question.correct);
     if (button.innerHTML === question.correct) {
         button.classList.add('btn-correct');
+        button.disabled = true;
         console.log("Correct!");
         incrementScore();
     } else {
@@ -203,8 +205,8 @@ function nextQuestion() {
         console.log("Incorrect!");
         
     }
-    otherButton.disabled = true
-    if ((questionCounter +1) === questions.length) {
+    otherButton.disabled = true;
+    if ((questionCounter + 1) === questions.length) {
         nextButton.innerHTML = 'End';
     }
 

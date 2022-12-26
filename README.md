@@ -91,6 +91,8 @@ I used the following technologies to create this website:
 
 The Media responsive elements were built directly in the CSS. The website is responsive across all media ie Laptops, desktops, tablets and smartphones.
 
+![Responsive Mockup](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/responsiveness.png)
+
 ### Validator Testing 
 
 - HTML
