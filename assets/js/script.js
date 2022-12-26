@@ -192,11 +192,12 @@ function nextQuestion() {
     console.log('Checking answer');
 
     let button = clicked == 1 ? answerOne : answerTwo;
-    let otherButton = clicked == 1 ? answerTwo : answerTwo;
+    let otherButton = clicked == 1 ? answerTwo : answerOne;
     let question = questions[questionCounter];
     console.log(question.correct);
     if (button.innerHTML === question.correct) {
         button.classList.add('btn-correct');
+        button.disabled = true;
         console.log("Correct!");
         incrementScore();
     } else {
@@ -204,7 +205,7 @@ function nextQuestion() {
         console.log("Incorrect!");
         
     }
-    button.disabled = true;
+    
     otherButton.disabled = true;
     if ((questionCounter + 1) === questions.length) {
         nextButton.innerHTML = 'End';

@@ -111,6 +111,12 @@ The Media responsive elements were built directly in the CSS. The website is res
  ![Lighthouse](https://github.com/Ratiem/the-ultimate-europe-quizz/blob/main/assets/images/lighthouse-testing.png)
 
 
+### Bugs to be fixed
+
+| **Bug** | **Attempted Fixes**| **Result** | 
+|-------------|------------|------------|
+|During the final check of the quiz functionality I noticed the questions go as far as question 11 and game ends instead of ending after question 12. The Check answer function was allowing the user to select either of the answers instead of allowing user to select one suitable answer.|I tried to adjust the global variable of question counter as well as review the next question function. I disabled two buttons when an answer has been selected, and re-enabling them when user moves to next question.|Due to unforeseen events which were communicated to student care, i had to redo this project while in remote areas and very limited network. I did not manage to fix this issue before submission. The user is now able to click only one answer.
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -119,7 +125,7 @@ The Media responsive elements were built directly in the CSS. The website is res
   - In the "Branch" section, from the drop-down menu, select "main" and click on Save;
   - Refresh the page manually. The link to the now deployed website and will display to indicate the successful deployment. 
 
-The live link can be found here - https://ratiem.github.io/the-ultimate-europe-quiz/ 
+The live link can be found here - https://ratiem.github.io/the-ultimate-europe-quizz/
 
 In order to fork this repository, you must:
 - Go to the Github repository.
