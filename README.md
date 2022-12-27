@@ -90,6 +90,7 @@ I used the following technologies to create this website:
 ## Testing 
 
 The Media responsive elements were built directly in the CSS. The website is responsive across all media ie Laptops, desktops, tablets and smartphones.
+I also tested that all buttons respond when clicked on. The rules and start button work well and then once the game begins after the user chooses an answer the next button is displayed and user goes to next question and this sequence continues until the game comes to an end.
 
 ![Responsive Mockup](https://github.com/Ratiem/the-ultimate-europe-quiz/blob/main/assets/images/responsiveness.png)
 
