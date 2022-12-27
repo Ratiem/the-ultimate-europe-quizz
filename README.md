@@ -170,7 +170,7 @@ You can clone this repository by:
 - I would also like to acknowledge the slack community for always trying their best to guide us through challenging tasks. 
 - My fellow Students Jeffrey Bull for helping review my code in peer code review.
 - I would also like to thank my fellow Code Institute student Kelly Hutchison. Her excellent code work was the basis for my project.
-- My friend George Ngcobo who  helped tutor me through the final steps in trying to identify where my code required fixing particularly in javascript. He also helped debug my code. I was challenged to think more and read through more online resources such as stackoverflow.com and search through related videos on youtube.
+- My friend George Ngcobo who  helped tutor me through the final steps in trying to identify where my code required fixing particularly in javascript. I was challenged to think more and read through more online resources such as stackoverflow.com and search through related videos on youtube.
 - Julia Sjterna a JavaScript expert and coach
 - Tutoring support for the guidance to be able to pick out possible errors for fixing.
 - Finally I would like to thank my Mentor Caleb Mbakwe for the continued support
