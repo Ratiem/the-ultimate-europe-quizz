@@ -111,13 +111,17 @@ The Media responsive elements were built directly in the CSS. The website is res
  ![Lighthouse](https://github.com/Ratiem/the-ultimate-europe-quizz/blob/main/assets/images/lighthouse-testing.png)
 
 
-### Bugs to be fixed
+### Bugs fixed
 
 | **Bug** | **Attempted Fixes**| **Result** | 
 |-------------|------------|------------|
-|During the final check of the quiz functionality I noticed the questions go as far as question 11 and game ends instead of ending after question 12. |I tried to adjust the global variable of question counter as well as review the next question function. |Due to unforeseen events in my family which were communicated to student care, i had to redo this project while in remote areas and very limited network. I did not manage to fix this issue before submission.
+|During the final check of the quiz functionality I noticed the questions go as far as question 11 and game ends instead of ending after question 12. |I tried to adjust the global variable of question counter as well as review the next question function and cleaned up script js code. |All 12 questions now display.
 |-------------|------------|------------|
 |The Check answer function was allowing the user to select either of the answers instead of allowing user to select one suitable answer.|I disabled two buttons when an answer has been selected, and re-enabling them when user moves to next question.  |The user is now able to click only one answer.
+
+
+### Bugs not fixed
+I did not detect any other bugs after cleaning up the code.
 
 ## Deployment
 
